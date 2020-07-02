@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.besimgurbuz</groupId>
-	<artifactId>backend-service</artifactId>
+	<artifactId>besimgurbuz-backend-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>backend-service</name>
 	<description>Back-end service of besimgurbuz.com</description>
