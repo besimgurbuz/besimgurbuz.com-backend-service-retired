@@ -25,7 +25,7 @@ public class CachingConfiguration {
     }
 
     @CacheEvict(allEntries = true, value = { "repos" })
-    @Scheduled(fixedDelay = 1000 * 60 * 60, initialDelay = 500)
+    @Scheduled(fixedDelay = 1000 * 60 * 60)
     public void reportCacheEvict() {
         System.out.println("Cached values removed: " + REPOS);
     }
