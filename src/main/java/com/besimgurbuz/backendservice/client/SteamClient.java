@@ -1,4 +1,4 @@
-package com.besimgurbuz.backendservice.clients;
+package com.besimgurbuz.backendservice.client;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

@@ -1,4 +1,4 @@
-package com.besimgurbuz.backendservice.configurations;
+package com.besimgurbuz.backendservice.configuration;
 
 import org.springframework.cache.CacheManager;
 import org.springframework.cache.annotation.CacheEvict;

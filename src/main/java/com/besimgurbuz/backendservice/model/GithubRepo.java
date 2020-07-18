@@ -1,4 +1,4 @@
-package com.besimgurbuz.backendservice.models;
+package com.besimgurbuz.backendservice.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;

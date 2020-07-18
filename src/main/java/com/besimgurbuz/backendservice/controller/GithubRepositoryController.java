@@ -1,7 +1,7 @@
-package com.besimgurbuz.backendservice.controllers;
+package com.besimgurbuz.backendservice.controller;
 
-import com.besimgurbuz.backendservice.models.GithubRepo;
-import com.besimgurbuz.backendservice.services.GithubRepositoryService;
+import com.besimgurbuz.backendservice.model.GithubRepo;
+import com.besimgurbuz.backendservice.service.GithubRepositoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;

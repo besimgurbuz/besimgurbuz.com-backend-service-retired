@@ -1,7 +1,7 @@
-package com.besimgurbuz.backendservice.controllers;
+package com.besimgurbuz.backendservice.controller;
 
-import com.besimgurbuz.backendservice.models.SteamProfile;
-import com.besimgurbuz.backendservice.services.SteamProfileService;
+import com.besimgurbuz.backendservice.model.SteamProfile;
+import com.besimgurbuz.backendservice.service.SteamProfileService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;

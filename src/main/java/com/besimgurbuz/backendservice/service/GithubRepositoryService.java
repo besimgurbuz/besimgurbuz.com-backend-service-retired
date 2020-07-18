@@ -1,7 +1,7 @@
-package com.besimgurbuz.backendservice.services;
+package com.besimgurbuz.backendservice.service;
 
-import com.besimgurbuz.backendservice.clients.GithubClient;
-import com.besimgurbuz.backendservice.models.GithubRepo;
+import com.besimgurbuz.backendservice.client.GithubClient;
+import com.besimgurbuz.backendservice.model.GithubRepo;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
