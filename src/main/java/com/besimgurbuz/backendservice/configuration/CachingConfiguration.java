@@ -18,15 +18,16 @@ import org.springframework.scheduling.annotation.Scheduled;
 public class CachingConfiguration {
 
     private String REPOS = "repos";
+    private String STEAM_PROFILE = "steam";
 
     @Bean
     public CacheManager cacheManager() {
-        return new ConcurrentMapCacheManager(REPOS);
+        return new ConcurrentMapCacheManager(REPOS, STEAM_PROFILE);
     }
 
-    @CacheEvict(allEntries = true, value = { "repos" })
+    @CacheEvict(allEntries = true, value = { "repos", "steam" })
     @Scheduled(fixedDelay = 1000 * 60 * 60)
     public void reportCacheEvict() {
-        System.out.println("Cached values removed: " + REPOS);
+        System.out.println("Cached values removed: " + REPOS + ", " + STEAM_PROFILE);
     }
 }

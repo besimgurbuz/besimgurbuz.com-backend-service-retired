@@ -4,6 +4,7 @@ import com.besimgurbuz.backendservice.client.SteamClient;
 import com.besimgurbuz.backendservice.model.SteamProfile;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 import com.fasterxml.jackson.core.type.TypeReference;
 
@@ -21,6 +22,7 @@ public class SteamProfileService {
     @Autowired
     SteamClient steamClient;
 
+    @Cacheable("steam")
     public SteamProfile getProfile() {
         try {
             HttpResponse response = steamClient.getProfile();
