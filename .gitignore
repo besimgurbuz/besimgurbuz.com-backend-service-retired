@@ -4,6 +4,7 @@ target/
 !**/src/main/**
 !**/src/test/**
 .env
+src/main/resources/application-prod.properties
 
 ### STS ###
 .apt_generated
