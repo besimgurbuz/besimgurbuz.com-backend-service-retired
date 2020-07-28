@@ -4,4 +4,4 @@
 
 
 #### Service Description
-**TODO ADD DESCRIPTION**
+This repository retired. Service will be created as a Node.js application.
